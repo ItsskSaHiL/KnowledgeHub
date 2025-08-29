@@ -4,8 +4,8 @@ import { Search, Menu, Sun, Moon, Brain } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useTheme } from "@/components/theme-provider";
-import { SearchDialog } from "@/components/search-dialog";
-import { ContentModal } from "@/components/content-modal";
+import { SearchDialog } from "../search-dialog";
+import { ContentModal } from "../content-modal";
 
 export function Header() {
   const { theme, setTheme } = useTheme();
