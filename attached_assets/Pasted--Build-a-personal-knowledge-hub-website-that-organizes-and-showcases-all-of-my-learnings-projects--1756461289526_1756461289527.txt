@@ -1,0 +1,168 @@
+"Build a personal knowledge hub website that organizes and showcases all of my learnings, projects, and explanations across multiple domains of technology. The website should be modern, clean, responsive, and customizable for future growth."
+
+🔹 Website Purpose
+
+A single platform where I can upload and organize all my learning content (theory, code, projects, explanations, videos).
+
+Acts as my personal learning archive, portfolio, and documentation hub.
+
+Should be easy to navigate and scalable as I keep adding more knowledge.
+
+🔹 Core Features
+
+Domain Categories (Main Sections)
+The homepage should list clear categories in ordered form. For example:
+
+Embedded Systems
+
+Bare-metal Programming
+
+RTOS (FreeRTOS, Zephyr, etc.)
+
+Device Drivers & Peripherals (GPIO, UART, SPI, I2C, etc.)
+
+Bootloaders & OTA Updates
+
+Protocols (CAN, LIN, Modbus, etc.)
+
+Debugging, Tracing, Testing
+
+AI & Machine Learning
+
+Embedded ML (TinyML, TensorFlow Lite)
+
+Deep Learning Basics
+
+Optimization & Deployment on Edge Devices
+
+Operating Systems
+
+Linux Kernel Internals
+
+Android OS Development
+
+iOS/macOS Internals
+
+RTOS vs Linux
+
+Hardware Architectures
+
+ARM Cortex-M, A
+
+RISC-V
+
+x86
+
+GPU & Parallel Processing
+
+Programming Languages
+
+C, C++, Rust
+
+Python, Shell Scripting
+
+Assembly
+
+Tools & DevOps
+
+Git, GitHub
+
+Jenkins, CI/CD
+
+Docker, Virtualization
+
+Jira, Version Control Workflow
+
+Networking & Protocols
+
+TCP, UDP, MQTT, HTTP/HTTPS
+
+WiFi, BLE, LoRa, RF
+
+Automotive Protocols (CAN, FlexRay, etc.)
+
+Product Development
+
+Product Design & Prototyping
+
+Testing & Validation
+
+Development Lifecycle & Agile
+
+Simulations & Graphics
+
+IoT & Cloud
+
+IoT Architecture
+
+Gateways & Edge Devices
+
+Backend Servers & Databases
+
+Cloud Deployment
+
+Subsections
+
+Each category should open into a structured page with topics, explanations, code snippets, diagrams, and videos.
+
+Example: “Embedded Systems → RTOS → Task Scheduling → My Notes + Example Code + Video Explanation”
+
+Content Management
+
+Ability to easily add, remove, or edit topics.
+
+Support for Markdown or WYSIWYG editor.
+
+Option to upload PDFs, slides, and videos.
+
+Search & Navigation
+
+A search bar to quickly find content.
+
+Sidebar / Table of Contents navigation.
+
+Breadcrumbs for deep topics.
+
+Customization
+
+Ability to reorder sections.
+
+Add tags/labels to topics.
+
+Option to mark “in-progress” or “completed”.
+
+Portfolio Integration
+
+Special section for Projects (with GitHub/Repo links).
+
+Case studies with explanation + outcomes.
+
+🔹 Design & Style
+
+Minimal, professional, clean UI.
+
+Dark/light mode support.
+
+Cards or grid layout for categories.
+
+Icons for each domain (e.g., chip for Embedded, AI brain for ML, etc.).
+
+🔹 Tech Stack (MVP Suggestion)
+
+Frontend: React + Tailwind (or Next.js for scalability).
+
+Backend (optional for now): Markdown-based content or a lightweight CMS like Strapi.
+
+Hosting: GitHub Pages / Vercel / Netlify.
+
+Database (future): MongoDB or PostgreSQL for advanced search.
+
+🔹 Future Extensions
+
+User authentication (if you want to make it private/public selective).
+
+Video hosting inside site (or embed from YouTube/Drive).
+
+Interactive coding snippets.
+
+Notes syncing (like Obsidian → Website).
